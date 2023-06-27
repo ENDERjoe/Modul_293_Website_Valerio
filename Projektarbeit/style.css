@@ -1,3 +1,81 @@
 body{
     font-family: Barlow;
+    background-color: #211A1D;
+    color: #FFF6F6;
+    
 }
+
+.TitleImg{
+    float: left;
+    margin-top: -13px;
+}
+
+header{
+    width: 100%;
+}
+
+.Title{
+    color: #F8F0FB;
+    text-align: center;
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+.LoginBtn{
+    float: right;
+    background-color: #6320EE;
+    margin-top: -44px;
+    margin-right: 27px;
+    color: #FFF6F6;
+    font-family: Barlow;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 0 5px #8075FF;
+    cursor: pointer;
+}
+
+nav {
+    
+    background-color: #6320EE;
+    display: flex;
+    justify-content: center;
+    width: 110%;
+    margin-left: -55px;
+    
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   display: flex;
+   
+}
+
+li{
+margin-right: 10px;
+}
+
+li:last-child{
+    margin-right: 0;
+}
+
+li a{
+    display: block;
+    color: #FFF6F6;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background: #8075FF;
+}
+
+.LoginBtn:hover {
+    background: #8075FF;
+}
+
