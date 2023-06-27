@@ -42,8 +42,8 @@ nav {
     background-color: #6320EE;
     display: flex;
     justify-content: center;
-    width: 110%;
-    margin-left: -55px;
+    width: 103.8%;
+    margin-left: -40px;
     
     
 }
@@ -79,3 +79,50 @@ li a:hover {
     background: #8075FF;
 }
 
+.FormularDiv{
+    background-color: #6320EE;
+    display: flex;
+    flex-direction: column;
+   border-radius: 10px;
+    width: 20%;
+    padding: 10px 10px;
+    box-shadow: 0 0 5px #8075FF;
+}
+
+.CenterDiv{
+display: flex;
+justify-content: center;
+align-content: center;
+margin: 140px 140px;
+}
+
+input{
+background-color: #211A1D;
+margin-bottom: 5px;
+border-radius: 7px;
+border: none;
+color: #FFF6F6;
+}
+
+#birthdate {
+color: #392E32;
+margin-bottom: 5px;
+}
+
+#gender{
+    background-color: #211A1D;
+    margin-bottom: 5px;
+border-radius: 7px;
+border: none;
+color: #352D30;
+}
+
+label{
+    margin-bottom: 1px;
+}
+
+#registerBtn{
+    color: #FFF6F6;
+    background-color: #8075FF;
+    margin-top: 15px;
+}
