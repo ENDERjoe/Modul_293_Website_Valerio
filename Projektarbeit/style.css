@@ -126,3 +126,12 @@ label{
     background-color: #8075FF;
     margin-top: 15px;
 }
+
+.GameTitle{
+margin-top: 20px;
+}
+
+.AllGamesDiv{
+    display: flex;
+    flex-direction: row;
+}
