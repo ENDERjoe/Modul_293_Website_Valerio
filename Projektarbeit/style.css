@@ -141,7 +141,7 @@ margin-right: 40px;
 
 .TRImg{
     width: 100px;
-    height: 230%;
+    height: 36%;
 }
 
 .EveryGameAloneDiv{
@@ -149,6 +149,7 @@ margin-right: 40px;
     flex-direction: column;
     width: 270px;
     justify-content: center;
+    margin-right: 15px;
 }
 
 .trailerVideos{
@@ -159,4 +160,13 @@ margin-right: 40px;
 .marginLeft{
     margin-left: -60px;
 
+}
+
+@media (max-width: 767px) {
+    .AllGamesDiv{
+        flex-direction: column;
+    }
+    #registerBtn{
+        float:right;
+    }
 }
